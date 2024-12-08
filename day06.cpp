@@ -3,6 +3,10 @@
 #include <vector>
 #include <string>
 
+//---- Advent of Code 2024 -----
+//--- Day 6: Guard Gallivant ---
+
+
 std::vector<std::pair<int, int>> directions = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
 
 bool IsPathClear(const std::vector<std::string>& grid, int x, int y, int direction)
